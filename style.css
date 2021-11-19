@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: url(assets/Tesla2\ Website\ UI\ UX.png);
+  width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: #d60000;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  border-radius: 1px 0 23px 24px;
+  height: 100%;
+}
+
+li {
+  display: inline;
+  margin: 0 45px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 639px;
+}
+
+/* TEXTOS */
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 9px;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  transition: 2s;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: serif;
+}
+
+.text {
+  text-align: end;
+  padding-right: 250px;
+  padding-top: 250px;
+}
